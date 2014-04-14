@@ -1,17 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(BoxCollider2D))]
 public class Activator : MonoBehaviour {
-    public int OpenMenuID;
-    public bool Disabled;
     public bool State = false;
     public bool triggered = false;
 
-     public virtual void OnDownPress()
+    public virtual void OnDownPress()
     {
-        if (!Disabled)
-        {
-            State = true;
-        }
+        State = true;
     }
 }
