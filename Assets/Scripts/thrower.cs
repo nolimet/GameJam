@@ -5,12 +5,12 @@ public class thrower : MonoBehaviour {
 	public float movementSpeed;
 	public float rotationSpeed;
 	
-	public Transform booger;
+	public Transform weapon;
 	
 	// Update is called once per frame
 	void Update () {
-		float y = Input.GetAxis ("Horizontal");
-		float z = Input.GetAxis ("Vertical");
+		float y = Input.GetAxis ("Mouse y");
+		float z = Input.GetAxis ("Mouse X");
 		
 		transform.Translate (new Vector3 (0f, 0f, z) * movementSpeed * Time.deltaTime);
 		transform.Rotate(new Vector3 (0f, y, 0f) * rotationSpeed * Time.deltaTime);
@@ -22,6 +22,6 @@ public class thrower : MonoBehaviour {
 	
 	void ShootBooger()
 	{
-		Instantiate (booger, this.transform.position, this.transform.rotation);
+		Instantiate (weapon, this.transform.position, this.transform.rotation);
 	}
 }
