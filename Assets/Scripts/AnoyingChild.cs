@@ -1,89 +1,55 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class AnoyingChild : MonoBehaviour {
-	// fill them
-	// Keep nothing at the end 
-	enum DoingGood
-	{
-		Photoshop,
-		D3, // 3D
-		AskQuation,
-		Nothing
-	}
 
-	// fill them
-	// Keep nothing at the end 
-	enum DoingBad
-	{
-		Facebook,
-		Talk,
-		MusicToHard,
-		Eat,
-		Drink,
-		Gamen,
-		Nothing
-	}
+	public List<Sprite> goodStuff;
+	public List<Sprite> badStuff;
+
+	public GameObject Student;
 
 	float timer;
-	bool isBad;
-
-	DoingBad doingBad;
-	DoingGood doingGood;
-
-	public 
+	public bool IsBad { get; private set;}	
 
 	// Use this for initialization
 	void Start () {
-		timer = Random.Range (1, 6);
-		isBad = false;
+		timer = 0.0f;
+		IsBad = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		// random actie om te doen voor een bepaalde tijd
 
+		timer -= Time.deltaTime;
 		if (timer <= 0.0f) 
 		{
-			if(Random.Range(0, 1000) > 500)
+			Sprite newSprite = null;
+
+			int num = Random.Range(0, 1000);
+			if(num > 500)
 			{
-				// bad
-				isBad = true;
-				doingBad = GetRandomEnum<DoingBad>(true);
-				doingGood = DoingGood.Nothing;
+				IsBad = true;
+				newSprite = badStuff[0];
+				Debug.Log("Nieuwe slechte sprite");
 			}
-			else
+			else if(num < 900)
 			{
-				// good
-				isBad = false;
-				doingGood = GetRandomEnum<DoingGood>(true);
-				doingBad = DoingBad.Nothing;
+				IsBad = false;
+				newSprite = goodStuff[0];
+				Debug.Log("Nieuwe goeie sprite");
 			}
 
+			SpriteRenderer sprRenderer = (SpriteRenderer)renderer;
+			sprRenderer.sprite = newSprite;
 			SetRandomTimer();
 		}
+		//Debug.Log (timer);
 	}
 
-	void OncolisionEnter(Collider other)
+	private void SetRandomTimer(int max = 3)
 	{
-		if (isBad) 
-		{
-			// add points
-
-		} else {
-			// remove point
-		}
-	}
-
-	private void SetRandomTimer(int max = 5)
-	{
-		timer = Random.Range (1, 5);
-	}
-
-	private T GetRandomEnum<T>(bool skipLast = false)
-	{
-		System.Array A = System.Enum.GetValues(typeof(T));
-		T V = (T)A.GetValue(UnityEngine.Random.Range(0, skipLast ? A.Length - 1 : A.Length ));
-		return V;
-	}
+		timer = Random.Range (1, max);
+	}	
 }
