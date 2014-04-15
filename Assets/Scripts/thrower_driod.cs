@@ -22,22 +22,18 @@ public class thrower_driod : HitRayFirere
 	// Update is called once per frame
     void Update()
     {
-         //RaycastHit2D hit = new RaycastHit2D();
-        if (Application.platform == RuntimePlatform.Android)
+        for (int i = 0; i < Input.touchCount; ++i)
         {
-            for (int i = 0; i < Input.touchCount; ++i)
+            if (Input.GetTouch(i).phase.Equals(TouchPhase.Began))
             {
-                if (Input.GetTouch(i).phase.Equals(TouchPhase.Began))
+                Touch touch = Input.GetTouch(i);
+                RaycastHit vHit = new RaycastHit();
+                Ray vRay = Camera.main.ScreenPointToRay(touch.position);
+                if (Physics.Raycast(vRay, out vHit, 1000))
                 {
-                    Touch touch = Input.GetTouch(i);
-                    RaycastHit vHit = new RaycastHit();
-                    Ray vRay = Camera.main.ScreenPointToRay(touch.position);
-                    if (Physics.Raycast(vRay, out vHit, 1000))
+                    if (vHit.collider.name == "Target")
                     {
-                        if (vHit.collider.name == "Target")
-                        {
-                            ShootBooger(vHit.collider.transform.gameObject);
-                        }
+                        ShootBooger(vHit.collider.transform.gameObject);
                     }
                 }
             }
