@@ -3,16 +3,12 @@ using System.Collections;
 
 public class weapon : MonoBehaviour {
 	float DestroyTime = 1.1f;
-    float speed = 0.1f;
+    float speed = 0.4f;
     float startTime;
     float journeyLength;
     private Vector3 startPos;
     Transform target;
 	
-	void Start () {
-		Destroy (gameObject, DestroyTime);
-	}
-
     void Update()
     {
         if (target != null)
@@ -25,9 +21,13 @@ public class weapon : MonoBehaviour {
 
 
     }
-	void OncolisionEnter(Collider other)
+    void OnCollisionEnter(Collision col)
 	{
-
+        Debug.Log("test");
+        if (col.gameObject.tag == "Target")
+        {
+            Destroy(gameObject, DestroyTime);
+        }
 	}
 
     public void getTarget(Transform _target)

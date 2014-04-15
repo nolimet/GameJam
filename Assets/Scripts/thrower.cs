@@ -3,13 +3,21 @@ using System.Collections;
 
 //[RequireComponent(typeof(Rigidbody))]
 public class thrower : MonoBehaviour {
-	public Transform booger;
+    public System.Collections.Generic.List<ObjectHit> targets = new System.Collections.Generic.List<ObjectHit>();
 
     void Start()
     {
         if (Application.platform == RuntimePlatform.WindowsWebPlayer || Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)
         {
             Debug.Log("all is oke :D this is windows");
+            Object[] objects = FindObjectsOfType(typeof(GameObject));
+            foreach (GameObject go in objects)
+            {
+                if (go.tag == "Target")
+                {
+                    targets.Add(go.GetComponent<ObjectHit>());
+                }
+            }
         }
         else
         {
@@ -21,21 +29,16 @@ public class thrower : MonoBehaviour {
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            RaycastHit2D hit = new RaycastHit2D();
-            hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null)
+       foreach(ObjectHit obj in targets){
+            if (obj.hit)
             {
-                if (hit.collider != null)
-                {
-                    ShootBooger(hit.transform.gameObject);
-                }
+                obj.hit = false;
+                ShootBooger(obj.transform.gameObject);
             }
         }
     }
 
-	void ShootBooger(GameObject target)
+    void ShootBooger(GameObject target)
 	{
 
         GameObject bullet = Instantiate(Resources.Load("Bullet"), transform.position, Quaternion.identity) as GameObject;

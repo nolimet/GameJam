@@ -5,7 +5,7 @@ using System.Collections;
 public class thrower_driod : HitRayFirere
 {
 	
-	public Transform booger;
+    public System.Collections.Generic.List<ObjectHit> targets = new System.Collections.Generic.List<ObjectHit>();
 
     void Start()
     {
@@ -22,7 +22,7 @@ public class thrower_driod : HitRayFirere
 	// Update is called once per frame
     void Update()
     {
-         RaycastHit2D hit = new RaycastHit2D();
+         //RaycastHit2D hit = new RaycastHit2D();
         if (Application.platform == RuntimePlatform.Android)
         {
             for (int i = 0; i < Input.touchCount; ++i)
@@ -30,11 +30,14 @@ public class thrower_driod : HitRayFirere
                 if (Input.GetTouch(i).phase.Equals(TouchPhase.Began))
                 {
                     Touch touch = Input.GetTouch(i);
-                    hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(touch.position), Vector2.zero);
-
-                    if (hit.collider != null)
+                    RaycastHit vHit = new RaycastHit();
+                    Ray vRay = Camera.main.ScreenPointToRay(touch.position);
+                    if (Physics.Raycast(vRay, out vHit, 1000))
                     {
-                        ShootBooger(hit.transform.gameObject);
+                        if (vHit.collider.name == "Target")
+                        {
+                            ShootBooger(vHit.collider.transform.gameObject);
+                        }
                     }
                 }
             }
@@ -45,7 +48,7 @@ public class thrower_driod : HitRayFirere
 	void ShootBooger(GameObject target)
 	{
 
-       GameObject bullet = Instantiate(booger, this.transform.position, Quaternion.identity) as GameObject;
+       GameObject bullet = Instantiate(Resources.Load("Bullet"), this.transform.position, Quaternion.Euler(0,90f,0)) as GameObject;
        bullet.GetComponent<weapon>().getTarget(target.transform);
 	}
 }
