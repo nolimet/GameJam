@@ -27,6 +27,8 @@ public class weapon : MonoBehaviour {
         if (col.gameObject.tag == "Target")
         {
             Destroy(gameObject, DestroyTime);
+
+			col.gameObject.SendMessage("Hit");
         }
 	}
 

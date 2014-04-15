@@ -2,15 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class AnoyingChild : MonoBehaviour {
+public class ComputerScreen : MonoBehaviour {
 
 	public List<Sprite> goodStuff;
 	public List<Sprite> badStuff;
 
-	public GameObject Student;
-
-	float timer;
 	public bool IsBad { get; private set;}	
+
+	float timer = 0.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -25,27 +24,36 @@ public class AnoyingChild : MonoBehaviour {
 		timer -= Time.deltaTime;
 		if (timer <= 0.0f) 
 		{
-			Sprite newSprite = null;
-
 			int num = Random.Range(0, 1000);
 			if(num > 500)
 			{
-				IsBad = true;
-				newSprite = badStuff[0];
-				Debug.Log("Nieuwe slechte sprite");
+				ChooseBadItem();
 			}
 			else if(num < 900)
 			{
-				IsBad = false;
-				newSprite = goodStuff[0];
-				Debug.Log("Nieuwe goeie sprite");
+				ChooseGoodItem();
 			}
 
-			SpriteRenderer sprRenderer = (SpriteRenderer)renderer;
-			sprRenderer.sprite = newSprite;
 			SetRandomTimer();
+			timer -= 0.05f;
 		}
 		//Debug.Log (timer);
+	}
+
+	public void ChooseGoodItem()
+	{
+		IsBad = false;
+		Sprite newSprite = goodStuff[Random.Range(0, goodStuff.Count)];
+		SpriteRenderer sprRenderer = (SpriteRenderer)renderer;
+		sprRenderer.sprite = newSprite;
+	}
+
+	public void ChooseBadItem()
+	{
+		IsBad = true;
+		Sprite newSprite = badStuff[Random.Range(0, badStuff.Count)];
+		SpriteRenderer sprRenderer = (SpriteRenderer)renderer;
+		sprRenderer.sprite = newSprite;
 	}
 
 	private void SetRandomTimer(int max = 3)
