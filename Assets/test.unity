@@ -935,7 +935,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 579795233}
   - 212: {fileID: 579795235}
-  - 111: {fileID: 579795234}
+  - 95: {fileID: 579795234}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -954,20 +954,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 1781597786}
---- !u!111 &579795234
-Animation:
+--- !u!95 &579795234
+Animator:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 579795232}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141fc08f8bfc4914b879b383c7690daf, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_HasTransformHierarchy: 1
 --- !u!212 &579795235
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1133,7 +1133,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 778030412}
   - 212: {fileID: 778030414}
-  - 111: {fileID: 778030413}
+  - 95: {fileID: 778030413}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -1152,20 +1152,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 1067872714}
---- !u!111 &778030413
-Animation:
+--- !u!95 &778030413
+Animator:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 778030411}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141fc08f8bfc4914b879b383c7690daf, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_HasTransformHierarchy: 1
 --- !u!212 &778030414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1345,7 +1345,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 933208397}
   - 212: {fileID: 933208399}
-  - 111: {fileID: 933208398}
+  - 95: {fileID: 933208398}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -1364,20 +1364,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 1329575850}
---- !u!111 &933208398
-Animation:
+--- !u!95 &933208398
+Animator:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 933208396}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141fc08f8bfc4914b879b383c7690daf, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_HasTransformHierarchy: 1
 --- !u!212 &933208399
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2120,7 +2120,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1289769554}
   - 212: {fileID: 1289769556}
-  - 111: {fileID: 1289769555}
+  - 95: {fileID: 1289769555}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -2139,20 +2139,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1938547910}
---- !u!111 &1289769555
-Animation:
+--- !u!95 &1289769555
+Animator:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1289769553}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141fc08f8bfc4914b879b383c7690daf, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_HasTransformHierarchy: 1
 --- !u!212 &1289769556
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2174,7 +2174,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1295352579
 GameObject:
@@ -2235,7 +2235,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1322433625}
   - 212: {fileID: 1322433624}
-  - 114: {fileID: 1322433626}
   m_Layer: 0
   m_Name: Schaduw
   m_TagString: Untagged
@@ -2278,17 +2277,6 @@ Transform:
   m_Children:
   - {fileID: 1584049988}
   m_Father: {fileID: 0}
---- !u!114 &1322433626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1322433623}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1329575849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2769,7 +2757,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1503744102}
   - 212: {fileID: 1503744104}
-  - 111: {fileID: 1503744103}
+  - 95: {fileID: 1503744103}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -2788,20 +2776,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 779671576}
---- !u!111 &1503744103
-Animation:
+--- !u!95 &1503744103
+Animator:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1503744101}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141fc08f8bfc4914b879b383c7690daf, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_HasTransformHierarchy: 1
 --- !u!212 &1503744104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3218,7 +3206,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1626254523}
   - 212: {fileID: 1626254525}
-  - 111: {fileID: 1626254524}
+  - 95: {fileID: 1626254524}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -3237,20 +3225,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 1366018381}
---- !u!111 &1626254524
-Animation:
+--- !u!95 &1626254524
+Animator:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1626254522}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141fc08f8bfc4914b879b383c7690daf, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_HasTransformHierarchy: 1
 --- !u!212 &1626254525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3823,7 +3811,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2018287953}
   - 212: {fileID: 2018287955}
-  - 111: {fileID: 2018287954}
+  - 95: {fileID: 2018287954}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -3842,20 +3830,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 2100680663}
---- !u!111 &2018287954
-Animation:
+--- !u!95 &2018287954
+Animator:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018287952}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141fc08f8bfc4914b879b383c7690daf, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_HasTransformHierarchy: 1
 --- !u!212 &2018287955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3888,7 +3876,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2044820766}
   - 212: {fileID: 2044820768}
-  - 111: {fileID: 2044820767}
+  - 95: {fileID: 2044820767}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -3907,20 +3895,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1388827547}
---- !u!111 &2044820767
-Animation:
+--- !u!95 &2044820767
+Animator:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2044820765}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141fc08f8bfc4914b879b383c7690daf, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_HasTransformHierarchy: 1
 --- !u!212 &2044820768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4087,7 +4075,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2097465283}
   - 212: {fileID: 2097465282}
-  - 111: {fileID: 2097465281}
+  - 95: {fileID: 2097465281}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -4095,20 +4083,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &2097465281
-Animation:
+--- !u!95 &2097465281
+Animator:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2097465280}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141fc08f8bfc4914b879b383c7690daf, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_HasTransformHierarchy: 1
 --- !u!212 &2097465282
 SpriteRenderer:
   m_ObjectHideFlags: 0
