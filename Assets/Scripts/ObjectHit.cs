@@ -25,6 +25,8 @@ public class ObjectHit : MonoBehaviour {
 				// Bad job
 				// 1 try less
 			}
+			// play weapon sound
+			// change texture 
 		}
 	}
 }
