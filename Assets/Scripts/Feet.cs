@@ -27,7 +27,7 @@ public class Feet : MonoBehaviour {
 
 				currentFrame++;
 				if (currentFrame >= frames.Count) {
-					randomWaitTime = Random.Range(0,5);
+					randomWaitTime = Random.Range(0,8);
 					currentFrame = 0;
 				}
 
