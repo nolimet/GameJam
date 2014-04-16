@@ -41,7 +41,7 @@ public class thrower : MonoBehaviour {
     void ShootBooger(GameObject target)
 	{
 
-        GameObject bullet = Instantiate(Resources.Load("Bullet"), transform.position, Quaternion.identity) as GameObject;
+        GameObject bullet = Instantiate(Resources.Load("Bullet"), new Vector3 (transform.position.x,transform.position.y+2f,transform.position.z), Quaternion.identity) as GameObject;
        bullet.GetComponent<weapon>().getTarget(target.transform);
 	}
 }
