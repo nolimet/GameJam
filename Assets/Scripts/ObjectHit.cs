@@ -18,12 +18,17 @@ public class ObjectHit : MonoBehaviour {
 			{
 				// good job
 				// score++
+				GlobalsVars.Score++;
 				screen.ChooseGoodItem();
 			}
 			else
 			{
-				// Bad job
-				// 1 try less
+				GlobalsVars.trys--;
+
+				if(GlobalsVars.trys <= 0)
+				{
+					// Gameover
+				}
 			}
 			// play weapon sound
 			// change texture 
