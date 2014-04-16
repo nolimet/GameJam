@@ -303,8 +303,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 174575772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6885488, y: 1.12708127, z: 21.5722733}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.85240889, y: 1.08599651, z: 21.5722733}
+  m_LocalScale: {x: 1.75, y: 2.68000007, z: 1}
   m_Children: []
   m_Father: {fileID: 356890165}
 --- !u!1 &238961008
@@ -503,8 +503,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 263390969}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.35761356, y: 1.12708127, z: 21.5722733}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.26005232, y: 1.00671053, z: 21.5295753}
+  m_LocalScale: {x: 1.75999999, y: 2.8599999, z: 1}
   m_Children: []
   m_Father: {fileID: 356890165}
 --- !u!1 &264050770
@@ -935,7 +935,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 579795233}
   - 212: {fileID: 579795235}
-  - 114: {fileID: 579795234}
+  - 111: {fileID: 579795234}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -954,49 +954,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 1781597786}
---- !u!114 &579795234
-MonoBehaviour:
+--- !u!111 &579795234
+Animation:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 579795232}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a79e260f6bc4047a57f5dcbeabb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
-  - {fileID: 21300000, guid: 86b0e8357aa3da74bb53397ba6e23dd4, type: 3}
-  - {fileID: 21300000, guid: cb6be9f4ad3977040810b4cfdcaa41c7, type: 3}
-  - {fileID: 21300000, guid: c7f8aa90684d5e645903bfd76bf844d1, type: 3}
-  - {fileID: 21300000, guid: 8af003172b49aa348b989fea5e175a17, type: 3}
-  - {fileID: 21300000, guid: 8937790a3997e0447825bf8a0dae2fc9, type: 3}
-  - {fileID: 21300000, guid: 97a2145f7a73ea24ababcd7a040db592, type: 3}
-  - {fileID: 21300000, guid: 77e39e857b6e2994ebada81bb3f8c229, type: 3}
-  - {fileID: 21300000, guid: a783040668f0b99439ed69213d9d0e83, type: 3}
-  - {fileID: 21300000, guid: fff08cedcec7253438710c28349335ca, type: 3}
-  - {fileID: 21300000, guid: 45659cf6580de234c83f9df24ab222f6, type: 3}
-  - {fileID: 21300000, guid: fec6287064ccec04694642acf992d33a, type: 3}
-  - {fileID: 21300000, guid: 02eaf62d46b260f468c58ece6355b880, type: 3}
-  - {fileID: 21300000, guid: 64117c68aa7abfd42b1ec9f7e3969463, type: 3}
-  - {fileID: 21300000, guid: 9143d39caef4bb24ea8abd7d4decf6e7, type: 3}
-  - {fileID: 21300000, guid: b6295863d6f70ed41859ed342c35729f, type: 3}
-  - {fileID: 21300000, guid: 23d9cf45b4e20264aa9a018a01e0e030, type: 3}
-  - {fileID: 21300000, guid: b3c3132a7071c4645b8e0ff543e7cdde, type: 3}
-  - {fileID: 21300000, guid: d0d479b54308ba940952a313e7000572, type: 3}
-  - {fileID: 21300000, guid: db6c4bc0ba458744788e495ce01f69ef, type: 3}
-  - {fileID: 21300000, guid: 3d369409dd43b614dbfa87606bd3e75d, type: 3}
-  - {fileID: 21300000, guid: cfffdff34c8b4d84aaf9e633659ca095, type: 3}
-  - {fileID: 21300000, guid: 4b4f3326957b2df49b746241aaf4d0a0, type: 3}
-  - {fileID: 21300000, guid: 71f1aa627189f114fb5e3f30f12b7295, type: 3}
-  - {fileID: 21300000, guid: 2814422ed85af4c419d211da44577b7a, type: 3}
-  - {fileID: 21300000, guid: d20342933865d694c95a64e602f0c5e1, type: 3}
-  - {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
-  - {fileID: 21300000, guid: 713baa2e25f6c954bba25954ecb12c9d, type: 3}
-  - {fileID: 21300000, guid: 37c3f7563c6e6914d95f7488c3f95214, type: 3}
-  - {fileID: 21300000, guid: 099415d09af2dca49a6636531b63cd6f, type: 3}
-  FPS: 30
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!212 &579795235
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1100,7 +1071,7 @@ Transform:
   m_GameObject: {fileID: 688389222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.28788376, y: -.848851979, z: 3.90446591}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.97000003, y: 2.42000008, z: 1}
   m_Children: []
   m_Father: {fileID: 356890165}
 --- !u!1 &731496223
@@ -1162,7 +1133,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 778030412}
   - 212: {fileID: 778030414}
-  - 114: {fileID: 778030413}
+  - 111: {fileID: 778030413}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -1181,49 +1152,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 1067872714}
---- !u!114 &778030413
-MonoBehaviour:
+--- !u!111 &778030413
+Animation:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 778030411}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a79e260f6bc4047a57f5dcbeabb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
-  - {fileID: 21300000, guid: 86b0e8357aa3da74bb53397ba6e23dd4, type: 3}
-  - {fileID: 21300000, guid: cb6be9f4ad3977040810b4cfdcaa41c7, type: 3}
-  - {fileID: 21300000, guid: c7f8aa90684d5e645903bfd76bf844d1, type: 3}
-  - {fileID: 21300000, guid: 8af003172b49aa348b989fea5e175a17, type: 3}
-  - {fileID: 21300000, guid: 8937790a3997e0447825bf8a0dae2fc9, type: 3}
-  - {fileID: 21300000, guid: 97a2145f7a73ea24ababcd7a040db592, type: 3}
-  - {fileID: 21300000, guid: 77e39e857b6e2994ebada81bb3f8c229, type: 3}
-  - {fileID: 21300000, guid: a783040668f0b99439ed69213d9d0e83, type: 3}
-  - {fileID: 21300000, guid: fff08cedcec7253438710c28349335ca, type: 3}
-  - {fileID: 21300000, guid: 45659cf6580de234c83f9df24ab222f6, type: 3}
-  - {fileID: 21300000, guid: fec6287064ccec04694642acf992d33a, type: 3}
-  - {fileID: 21300000, guid: 02eaf62d46b260f468c58ece6355b880, type: 3}
-  - {fileID: 21300000, guid: 64117c68aa7abfd42b1ec9f7e3969463, type: 3}
-  - {fileID: 21300000, guid: 9143d39caef4bb24ea8abd7d4decf6e7, type: 3}
-  - {fileID: 21300000, guid: b6295863d6f70ed41859ed342c35729f, type: 3}
-  - {fileID: 21300000, guid: 23d9cf45b4e20264aa9a018a01e0e030, type: 3}
-  - {fileID: 21300000, guid: b3c3132a7071c4645b8e0ff543e7cdde, type: 3}
-  - {fileID: 21300000, guid: d0d479b54308ba940952a313e7000572, type: 3}
-  - {fileID: 21300000, guid: db6c4bc0ba458744788e495ce01f69ef, type: 3}
-  - {fileID: 21300000, guid: 3d369409dd43b614dbfa87606bd3e75d, type: 3}
-  - {fileID: 21300000, guid: cfffdff34c8b4d84aaf9e633659ca095, type: 3}
-  - {fileID: 21300000, guid: 4b4f3326957b2df49b746241aaf4d0a0, type: 3}
-  - {fileID: 21300000, guid: 71f1aa627189f114fb5e3f30f12b7295, type: 3}
-  - {fileID: 21300000, guid: 2814422ed85af4c419d211da44577b7a, type: 3}
-  - {fileID: 21300000, guid: d20342933865d694c95a64e602f0c5e1, type: 3}
-  - {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
-  - {fileID: 21300000, guid: 713baa2e25f6c954bba25954ecb12c9d, type: 3}
-  - {fileID: 21300000, guid: 37c3f7563c6e6914d95f7488c3f95214, type: 3}
-  - {fileID: 21300000, guid: 099415d09af2dca49a6636531b63cd6f, type: 3}
-  FPS: 30
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!212 &778030414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1403,7 +1345,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 933208397}
   - 212: {fileID: 933208399}
-  - 114: {fileID: 933208398}
+  - 111: {fileID: 933208398}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -1422,49 +1364,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 1329575850}
---- !u!114 &933208398
-MonoBehaviour:
+--- !u!111 &933208398
+Animation:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 933208396}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a79e260f6bc4047a57f5dcbeabb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
-  - {fileID: 21300000, guid: 86b0e8357aa3da74bb53397ba6e23dd4, type: 3}
-  - {fileID: 21300000, guid: cb6be9f4ad3977040810b4cfdcaa41c7, type: 3}
-  - {fileID: 21300000, guid: c7f8aa90684d5e645903bfd76bf844d1, type: 3}
-  - {fileID: 21300000, guid: 8af003172b49aa348b989fea5e175a17, type: 3}
-  - {fileID: 21300000, guid: 8937790a3997e0447825bf8a0dae2fc9, type: 3}
-  - {fileID: 21300000, guid: 97a2145f7a73ea24ababcd7a040db592, type: 3}
-  - {fileID: 21300000, guid: 77e39e857b6e2994ebada81bb3f8c229, type: 3}
-  - {fileID: 21300000, guid: a783040668f0b99439ed69213d9d0e83, type: 3}
-  - {fileID: 21300000, guid: fff08cedcec7253438710c28349335ca, type: 3}
-  - {fileID: 21300000, guid: 45659cf6580de234c83f9df24ab222f6, type: 3}
-  - {fileID: 21300000, guid: fec6287064ccec04694642acf992d33a, type: 3}
-  - {fileID: 21300000, guid: 02eaf62d46b260f468c58ece6355b880, type: 3}
-  - {fileID: 21300000, guid: 64117c68aa7abfd42b1ec9f7e3969463, type: 3}
-  - {fileID: 21300000, guid: 9143d39caef4bb24ea8abd7d4decf6e7, type: 3}
-  - {fileID: 21300000, guid: b6295863d6f70ed41859ed342c35729f, type: 3}
-  - {fileID: 21300000, guid: 23d9cf45b4e20264aa9a018a01e0e030, type: 3}
-  - {fileID: 21300000, guid: b3c3132a7071c4645b8e0ff543e7cdde, type: 3}
-  - {fileID: 21300000, guid: d0d479b54308ba940952a313e7000572, type: 3}
-  - {fileID: 21300000, guid: db6c4bc0ba458744788e495ce01f69ef, type: 3}
-  - {fileID: 21300000, guid: 3d369409dd43b614dbfa87606bd3e75d, type: 3}
-  - {fileID: 21300000, guid: cfffdff34c8b4d84aaf9e633659ca095, type: 3}
-  - {fileID: 21300000, guid: 4b4f3326957b2df49b746241aaf4d0a0, type: 3}
-  - {fileID: 21300000, guid: 71f1aa627189f114fb5e3f30f12b7295, type: 3}
-  - {fileID: 21300000, guid: 2814422ed85af4c419d211da44577b7a, type: 3}
-  - {fileID: 21300000, guid: d20342933865d694c95a64e602f0c5e1, type: 3}
-  - {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
-  - {fileID: 21300000, guid: 713baa2e25f6c954bba25954ecb12c9d, type: 3}
-  - {fileID: 21300000, guid: 37c3f7563c6e6914d95f7488c3f95214, type: 3}
-  - {fileID: 21300000, guid: 099415d09af2dca49a6636531b63cd6f, type: 3}
-  FPS: 30
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!212 &933208399
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1845,7 +1758,7 @@ Transform:
   m_GameObject: {fileID: 1110432705}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.987970829, y: -.661459029, z: 3.90446591}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.29999995, y: 2.75, z: 1}
   m_Children: []
   m_Father: {fileID: 356890165}
 --- !u!1 &1125887546
@@ -2207,7 +2120,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1289769554}
   - 212: {fileID: 1289769556}
-  - 114: {fileID: 1289769555}
+  - 111: {fileID: 1289769555}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -2226,49 +2139,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1938547910}
---- !u!114 &1289769555
-MonoBehaviour:
+--- !u!111 &1289769555
+Animation:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1289769553}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a79e260f6bc4047a57f5dcbeabb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
-  - {fileID: 21300000, guid: 86b0e8357aa3da74bb53397ba6e23dd4, type: 3}
-  - {fileID: 21300000, guid: cb6be9f4ad3977040810b4cfdcaa41c7, type: 3}
-  - {fileID: 21300000, guid: c7f8aa90684d5e645903bfd76bf844d1, type: 3}
-  - {fileID: 21300000, guid: 8af003172b49aa348b989fea5e175a17, type: 3}
-  - {fileID: 21300000, guid: 8937790a3997e0447825bf8a0dae2fc9, type: 3}
-  - {fileID: 21300000, guid: 97a2145f7a73ea24ababcd7a040db592, type: 3}
-  - {fileID: 21300000, guid: 77e39e857b6e2994ebada81bb3f8c229, type: 3}
-  - {fileID: 21300000, guid: a783040668f0b99439ed69213d9d0e83, type: 3}
-  - {fileID: 21300000, guid: fff08cedcec7253438710c28349335ca, type: 3}
-  - {fileID: 21300000, guid: 45659cf6580de234c83f9df24ab222f6, type: 3}
-  - {fileID: 21300000, guid: fec6287064ccec04694642acf992d33a, type: 3}
-  - {fileID: 21300000, guid: 02eaf62d46b260f468c58ece6355b880, type: 3}
-  - {fileID: 21300000, guid: 64117c68aa7abfd42b1ec9f7e3969463, type: 3}
-  - {fileID: 21300000, guid: 9143d39caef4bb24ea8abd7d4decf6e7, type: 3}
-  - {fileID: 21300000, guid: b6295863d6f70ed41859ed342c35729f, type: 3}
-  - {fileID: 21300000, guid: 23d9cf45b4e20264aa9a018a01e0e030, type: 3}
-  - {fileID: 21300000, guid: b3c3132a7071c4645b8e0ff543e7cdde, type: 3}
-  - {fileID: 21300000, guid: d0d479b54308ba940952a313e7000572, type: 3}
-  - {fileID: 21300000, guid: db6c4bc0ba458744788e495ce01f69ef, type: 3}
-  - {fileID: 21300000, guid: 3d369409dd43b614dbfa87606bd3e75d, type: 3}
-  - {fileID: 21300000, guid: cfffdff34c8b4d84aaf9e633659ca095, type: 3}
-  - {fileID: 21300000, guid: 4b4f3326957b2df49b746241aaf4d0a0, type: 3}
-  - {fileID: 21300000, guid: 71f1aa627189f114fb5e3f30f12b7295, type: 3}
-  - {fileID: 21300000, guid: 2814422ed85af4c419d211da44577b7a, type: 3}
-  - {fileID: 21300000, guid: d20342933865d694c95a64e602f0c5e1, type: 3}
-  - {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
-  - {fileID: 21300000, guid: 713baa2e25f6c954bba25954ecb12c9d, type: 3}
-  - {fileID: 21300000, guid: 37c3f7563c6e6914d95f7488c3f95214, type: 3}
-  - {fileID: 21300000, guid: 099415d09af2dca49a6636531b63cd6f, type: 3}
-  FPS: 30
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!212 &1289769556
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2822,8 +2706,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1459865142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.400431156, y: 1.39999998, z: 21.5722733}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.46823645, y: 1.28117633, z: 21.5722733}
+  m_LocalScale: {x: 1.78999996, y: 2.75, z: 1}
   m_Children: []
   m_Father: {fileID: 356890165}
 --- !u!1 &1490471647
@@ -2885,7 +2769,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1503744102}
   - 212: {fileID: 1503744104}
-  - 114: {fileID: 1503744103}
+  - 111: {fileID: 1503744103}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -2904,49 +2788,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 779671576}
---- !u!114 &1503744103
-MonoBehaviour:
+--- !u!111 &1503744103
+Animation:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1503744101}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a79e260f6bc4047a57f5dcbeabb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
-  - {fileID: 21300000, guid: 86b0e8357aa3da74bb53397ba6e23dd4, type: 3}
-  - {fileID: 21300000, guid: cb6be9f4ad3977040810b4cfdcaa41c7, type: 3}
-  - {fileID: 21300000, guid: c7f8aa90684d5e645903bfd76bf844d1, type: 3}
-  - {fileID: 21300000, guid: 8af003172b49aa348b989fea5e175a17, type: 3}
-  - {fileID: 21300000, guid: 8937790a3997e0447825bf8a0dae2fc9, type: 3}
-  - {fileID: 21300000, guid: 97a2145f7a73ea24ababcd7a040db592, type: 3}
-  - {fileID: 21300000, guid: 77e39e857b6e2994ebada81bb3f8c229, type: 3}
-  - {fileID: 21300000, guid: a783040668f0b99439ed69213d9d0e83, type: 3}
-  - {fileID: 21300000, guid: fff08cedcec7253438710c28349335ca, type: 3}
-  - {fileID: 21300000, guid: 45659cf6580de234c83f9df24ab222f6, type: 3}
-  - {fileID: 21300000, guid: fec6287064ccec04694642acf992d33a, type: 3}
-  - {fileID: 21300000, guid: 02eaf62d46b260f468c58ece6355b880, type: 3}
-  - {fileID: 21300000, guid: 64117c68aa7abfd42b1ec9f7e3969463, type: 3}
-  - {fileID: 21300000, guid: 9143d39caef4bb24ea8abd7d4decf6e7, type: 3}
-  - {fileID: 21300000, guid: b6295863d6f70ed41859ed342c35729f, type: 3}
-  - {fileID: 21300000, guid: 23d9cf45b4e20264aa9a018a01e0e030, type: 3}
-  - {fileID: 21300000, guid: b3c3132a7071c4645b8e0ff543e7cdde, type: 3}
-  - {fileID: 21300000, guid: d0d479b54308ba940952a313e7000572, type: 3}
-  - {fileID: 21300000, guid: db6c4bc0ba458744788e495ce01f69ef, type: 3}
-  - {fileID: 21300000, guid: 3d369409dd43b614dbfa87606bd3e75d, type: 3}
-  - {fileID: 21300000, guid: cfffdff34c8b4d84aaf9e633659ca095, type: 3}
-  - {fileID: 21300000, guid: 4b4f3326957b2df49b746241aaf4d0a0, type: 3}
-  - {fileID: 21300000, guid: 71f1aa627189f114fb5e3f30f12b7295, type: 3}
-  - {fileID: 21300000, guid: 2814422ed85af4c419d211da44577b7a, type: 3}
-  - {fileID: 21300000, guid: d20342933865d694c95a64e602f0c5e1, type: 3}
-  - {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
-  - {fileID: 21300000, guid: 713baa2e25f6c954bba25954ecb12c9d, type: 3}
-  - {fileID: 21300000, guid: 37c3f7563c6e6914d95f7488c3f95214, type: 3}
-  - {fileID: 21300000, guid: 099415d09af2dca49a6636531b63cd6f, type: 3}
-  FPS: 30
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!212 &1503744104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3049,8 +2904,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1526064423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.93350399, y: .218537867, z: 12.0185986}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.85385346, y: .216373503, z: 12.0185986}
+  m_LocalScale: {x: 1.58000004, y: 1.97000003, z: 1}
   m_Children: []
   m_Father: {fileID: 356890165}
 --- !u!1 &1546577433
@@ -3132,8 +2987,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1546577433}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .220631838, y: .0936156511, z: 12.0185986}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.30151844, y: .417341113, z: 12.0185986}
+  m_LocalScale: {x: 1.88, y: 1.97000003, z: 1}
   m_Children: []
   m_Father: {fileID: 356890165}
 --- !u!1 &1584049987
@@ -3363,7 +3218,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1626254523}
   - 212: {fileID: 1626254525}
-  - 114: {fileID: 1626254524}
+  - 111: {fileID: 1626254524}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -3382,49 +3237,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 1366018381}
---- !u!114 &1626254524
-MonoBehaviour:
+--- !u!111 &1626254524
+Animation:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1626254522}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a79e260f6bc4047a57f5dcbeabb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
-  - {fileID: 21300000, guid: 86b0e8357aa3da74bb53397ba6e23dd4, type: 3}
-  - {fileID: 21300000, guid: cb6be9f4ad3977040810b4cfdcaa41c7, type: 3}
-  - {fileID: 21300000, guid: c7f8aa90684d5e645903bfd76bf844d1, type: 3}
-  - {fileID: 21300000, guid: 8af003172b49aa348b989fea5e175a17, type: 3}
-  - {fileID: 21300000, guid: 8937790a3997e0447825bf8a0dae2fc9, type: 3}
-  - {fileID: 21300000, guid: 97a2145f7a73ea24ababcd7a040db592, type: 3}
-  - {fileID: 21300000, guid: 77e39e857b6e2994ebada81bb3f8c229, type: 3}
-  - {fileID: 21300000, guid: a783040668f0b99439ed69213d9d0e83, type: 3}
-  - {fileID: 21300000, guid: fff08cedcec7253438710c28349335ca, type: 3}
-  - {fileID: 21300000, guid: 45659cf6580de234c83f9df24ab222f6, type: 3}
-  - {fileID: 21300000, guid: fec6287064ccec04694642acf992d33a, type: 3}
-  - {fileID: 21300000, guid: 02eaf62d46b260f468c58ece6355b880, type: 3}
-  - {fileID: 21300000, guid: 64117c68aa7abfd42b1ec9f7e3969463, type: 3}
-  - {fileID: 21300000, guid: 9143d39caef4bb24ea8abd7d4decf6e7, type: 3}
-  - {fileID: 21300000, guid: b6295863d6f70ed41859ed342c35729f, type: 3}
-  - {fileID: 21300000, guid: 23d9cf45b4e20264aa9a018a01e0e030, type: 3}
-  - {fileID: 21300000, guid: b3c3132a7071c4645b8e0ff543e7cdde, type: 3}
-  - {fileID: 21300000, guid: d0d479b54308ba940952a313e7000572, type: 3}
-  - {fileID: 21300000, guid: db6c4bc0ba458744788e495ce01f69ef, type: 3}
-  - {fileID: 21300000, guid: 3d369409dd43b614dbfa87606bd3e75d, type: 3}
-  - {fileID: 21300000, guid: cfffdff34c8b4d84aaf9e633659ca095, type: 3}
-  - {fileID: 21300000, guid: 4b4f3326957b2df49b746241aaf4d0a0, type: 3}
-  - {fileID: 21300000, guid: 71f1aa627189f114fb5e3f30f12b7295, type: 3}
-  - {fileID: 21300000, guid: 2814422ed85af4c419d211da44577b7a, type: 3}
-  - {fileID: 21300000, guid: d20342933865d694c95a64e602f0c5e1, type: 3}
-  - {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
-  - {fileID: 21300000, guid: 713baa2e25f6c954bba25954ecb12c9d, type: 3}
-  - {fileID: 21300000, guid: 37c3f7563c6e6914d95f7488c3f95214, type: 3}
-  - {fileID: 21300000, guid: 099415d09af2dca49a6636531b63cd6f, type: 3}
-  FPS: 30
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!212 &1626254525
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3595,7 +3421,7 @@ Transform:
   m_GameObject: {fileID: 1833522298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.24728584, y: -.84415096, z: 3.90446591}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.04999995, y: 2.58999991, z: 1}
   m_Children: []
   m_Father: {fileID: 356890165}
 --- !u!114 &1833522303
@@ -3954,8 +3780,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1923057567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.38997221, y: .135385513, z: 12.0185986}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.57570982, y: .135385513, z: 12.0185986}
+  m_LocalScale: {x: 1.75, y: 2.02999997, z: 1}
   m_Children: []
   m_Father: {fileID: 356890165}
 --- !u!1 &1938547909
@@ -3997,7 +3823,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2018287953}
   - 212: {fileID: 2018287955}
-  - 114: {fileID: 2018287954}
+  - 111: {fileID: 2018287954}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -4016,49 +3842,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1.04999995}
   m_Children: []
   m_Father: {fileID: 2100680663}
---- !u!114 &2018287954
-MonoBehaviour:
+--- !u!111 &2018287954
+Animation:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018287952}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a79e260f6bc4047a57f5dcbeabb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
-  - {fileID: 21300000, guid: 86b0e8357aa3da74bb53397ba6e23dd4, type: 3}
-  - {fileID: 21300000, guid: cb6be9f4ad3977040810b4cfdcaa41c7, type: 3}
-  - {fileID: 21300000, guid: c7f8aa90684d5e645903bfd76bf844d1, type: 3}
-  - {fileID: 21300000, guid: 8af003172b49aa348b989fea5e175a17, type: 3}
-  - {fileID: 21300000, guid: 8937790a3997e0447825bf8a0dae2fc9, type: 3}
-  - {fileID: 21300000, guid: 97a2145f7a73ea24ababcd7a040db592, type: 3}
-  - {fileID: 21300000, guid: 77e39e857b6e2994ebada81bb3f8c229, type: 3}
-  - {fileID: 21300000, guid: a783040668f0b99439ed69213d9d0e83, type: 3}
-  - {fileID: 21300000, guid: fff08cedcec7253438710c28349335ca, type: 3}
-  - {fileID: 21300000, guid: 45659cf6580de234c83f9df24ab222f6, type: 3}
-  - {fileID: 21300000, guid: fec6287064ccec04694642acf992d33a, type: 3}
-  - {fileID: 21300000, guid: 02eaf62d46b260f468c58ece6355b880, type: 3}
-  - {fileID: 21300000, guid: 64117c68aa7abfd42b1ec9f7e3969463, type: 3}
-  - {fileID: 21300000, guid: 9143d39caef4bb24ea8abd7d4decf6e7, type: 3}
-  - {fileID: 21300000, guid: b6295863d6f70ed41859ed342c35729f, type: 3}
-  - {fileID: 21300000, guid: 23d9cf45b4e20264aa9a018a01e0e030, type: 3}
-  - {fileID: 21300000, guid: b3c3132a7071c4645b8e0ff543e7cdde, type: 3}
-  - {fileID: 21300000, guid: d0d479b54308ba940952a313e7000572, type: 3}
-  - {fileID: 21300000, guid: db6c4bc0ba458744788e495ce01f69ef, type: 3}
-  - {fileID: 21300000, guid: 3d369409dd43b614dbfa87606bd3e75d, type: 3}
-  - {fileID: 21300000, guid: cfffdff34c8b4d84aaf9e633659ca095, type: 3}
-  - {fileID: 21300000, guid: 4b4f3326957b2df49b746241aaf4d0a0, type: 3}
-  - {fileID: 21300000, guid: 71f1aa627189f114fb5e3f30f12b7295, type: 3}
-  - {fileID: 21300000, guid: 2814422ed85af4c419d211da44577b7a, type: 3}
-  - {fileID: 21300000, guid: d20342933865d694c95a64e602f0c5e1, type: 3}
-  - {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
-  - {fileID: 21300000, guid: 713baa2e25f6c954bba25954ecb12c9d, type: 3}
-  - {fileID: 21300000, guid: 37c3f7563c6e6914d95f7488c3f95214, type: 3}
-  - {fileID: 21300000, guid: 099415d09af2dca49a6636531b63cd6f, type: 3}
-  FPS: 30
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!212 &2018287955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4091,7 +3888,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2044820766}
   - 212: {fileID: 2044820768}
-  - 114: {fileID: 2044820767}
+  - 111: {fileID: 2044820767}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -4110,49 +3907,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1388827547}
---- !u!114 &2044820767
-MonoBehaviour:
+--- !u!111 &2044820767
+Animation:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2044820765}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a79e260f6bc4047a57f5dcbeabb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
-  - {fileID: 21300000, guid: 86b0e8357aa3da74bb53397ba6e23dd4, type: 3}
-  - {fileID: 21300000, guid: cb6be9f4ad3977040810b4cfdcaa41c7, type: 3}
-  - {fileID: 21300000, guid: c7f8aa90684d5e645903bfd76bf844d1, type: 3}
-  - {fileID: 21300000, guid: 8af003172b49aa348b989fea5e175a17, type: 3}
-  - {fileID: 21300000, guid: 8937790a3997e0447825bf8a0dae2fc9, type: 3}
-  - {fileID: 21300000, guid: 97a2145f7a73ea24ababcd7a040db592, type: 3}
-  - {fileID: 21300000, guid: 77e39e857b6e2994ebada81bb3f8c229, type: 3}
-  - {fileID: 21300000, guid: a783040668f0b99439ed69213d9d0e83, type: 3}
-  - {fileID: 21300000, guid: fff08cedcec7253438710c28349335ca, type: 3}
-  - {fileID: 21300000, guid: 45659cf6580de234c83f9df24ab222f6, type: 3}
-  - {fileID: 21300000, guid: fec6287064ccec04694642acf992d33a, type: 3}
-  - {fileID: 21300000, guid: 02eaf62d46b260f468c58ece6355b880, type: 3}
-  - {fileID: 21300000, guid: 64117c68aa7abfd42b1ec9f7e3969463, type: 3}
-  - {fileID: 21300000, guid: 9143d39caef4bb24ea8abd7d4decf6e7, type: 3}
-  - {fileID: 21300000, guid: b6295863d6f70ed41859ed342c35729f, type: 3}
-  - {fileID: 21300000, guid: 23d9cf45b4e20264aa9a018a01e0e030, type: 3}
-  - {fileID: 21300000, guid: b3c3132a7071c4645b8e0ff543e7cdde, type: 3}
-  - {fileID: 21300000, guid: d0d479b54308ba940952a313e7000572, type: 3}
-  - {fileID: 21300000, guid: db6c4bc0ba458744788e495ce01f69ef, type: 3}
-  - {fileID: 21300000, guid: 3d369409dd43b614dbfa87606bd3e75d, type: 3}
-  - {fileID: 21300000, guid: cfffdff34c8b4d84aaf9e633659ca095, type: 3}
-  - {fileID: 21300000, guid: 4b4f3326957b2df49b746241aaf4d0a0, type: 3}
-  - {fileID: 21300000, guid: 71f1aa627189f114fb5e3f30f12b7295, type: 3}
-  - {fileID: 21300000, guid: 2814422ed85af4c419d211da44577b7a, type: 3}
-  - {fileID: 21300000, guid: d20342933865d694c95a64e602f0c5e1, type: 3}
-  - {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
-  - {fileID: 21300000, guid: 713baa2e25f6c954bba25954ecb12c9d, type: 3}
-  - {fileID: 21300000, guid: 37c3f7563c6e6914d95f7488c3f95214, type: 3}
-  - {fileID: 21300000, guid: 099415d09af2dca49a6636531b63cd6f, type: 3}
-  FPS: 30
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!212 &2044820768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4319,7 +4087,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2097465283}
   - 212: {fileID: 2097465282}
-  - 114: {fileID: 2097465281}
+  - 111: {fileID: 2097465281}
   m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
@@ -4327,49 +4095,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2097465281
-MonoBehaviour:
+--- !u!111 &2097465281
+Animation:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2097465280}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a79e260f6bc4047a57f5dcbeabb7ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 21300000, guid: 75a91ab1a1070d54eab8f79ccff33bcc, type: 3}
-  - {fileID: 21300000, guid: 86b0e8357aa3da74bb53397ba6e23dd4, type: 3}
-  - {fileID: 21300000, guid: cb6be9f4ad3977040810b4cfdcaa41c7, type: 3}
-  - {fileID: 21300000, guid: c7f8aa90684d5e645903bfd76bf844d1, type: 3}
-  - {fileID: 21300000, guid: 8af003172b49aa348b989fea5e175a17, type: 3}
-  - {fileID: 21300000, guid: 8937790a3997e0447825bf8a0dae2fc9, type: 3}
-  - {fileID: 21300000, guid: 97a2145f7a73ea24ababcd7a040db592, type: 3}
-  - {fileID: 21300000, guid: 77e39e857b6e2994ebada81bb3f8c229, type: 3}
-  - {fileID: 21300000, guid: a783040668f0b99439ed69213d9d0e83, type: 3}
-  - {fileID: 21300000, guid: fff08cedcec7253438710c28349335ca, type: 3}
-  - {fileID: 21300000, guid: 45659cf6580de234c83f9df24ab222f6, type: 3}
-  - {fileID: 21300000, guid: fec6287064ccec04694642acf992d33a, type: 3}
-  - {fileID: 21300000, guid: 02eaf62d46b260f468c58ece6355b880, type: 3}
-  - {fileID: 21300000, guid: 64117c68aa7abfd42b1ec9f7e3969463, type: 3}
-  - {fileID: 21300000, guid: 9143d39caef4bb24ea8abd7d4decf6e7, type: 3}
-  - {fileID: 21300000, guid: b6295863d6f70ed41859ed342c35729f, type: 3}
-  - {fileID: 21300000, guid: 23d9cf45b4e20264aa9a018a01e0e030, type: 3}
-  - {fileID: 21300000, guid: b3c3132a7071c4645b8e0ff543e7cdde, type: 3}
-  - {fileID: 21300000, guid: d0d479b54308ba940952a313e7000572, type: 3}
-  - {fileID: 21300000, guid: db6c4bc0ba458744788e495ce01f69ef, type: 3}
-  - {fileID: 21300000, guid: 3d369409dd43b614dbfa87606bd3e75d, type: 3}
-  - {fileID: 21300000, guid: cfffdff34c8b4d84aaf9e633659ca095, type: 3}
-  - {fileID: 21300000, guid: 4b4f3326957b2df49b746241aaf4d0a0, type: 3}
-  - {fileID: 21300000, guid: 71f1aa627189f114fb5e3f30f12b7295, type: 3}
-  - {fileID: 21300000, guid: 2814422ed85af4c419d211da44577b7a, type: 3}
-  - {fileID: 21300000, guid: d20342933865d694c95a64e602f0c5e1, type: 3}
-  - {fileID: 21300000, guid: 3bb10910595fbd34db710469f3330044, type: 3}
-  - {fileID: 21300000, guid: 713baa2e25f6c954bba25954ecb12c9d, type: 3}
-  - {fileID: 21300000, guid: 37c3f7563c6e6914d95f7488c3f95214, type: 3}
-  - {fileID: 21300000, guid: 099415d09af2dca49a6636531b63cd6f, type: 3}
-  FPS: 30
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 762bd8be7be223a488802d42bda44e73, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!212 &2097465282
 SpriteRenderer:
   m_ObjectHideFlags: 0

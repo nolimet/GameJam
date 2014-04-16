@@ -5,6 +5,11 @@ public class ObjectHit : MonoBehaviour {
     public bool hit = false;
 	public ComputerScreen screen;
 
+    void Start()
+    {
+        renderer.enabled = false;
+    }
+
     void OnMouseDown()
     {
         hit = true;
